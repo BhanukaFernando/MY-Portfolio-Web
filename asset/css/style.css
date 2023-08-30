@@ -38,11 +38,11 @@ img {
 }
 
 .text-brand {
-    color: var(--color-brand) !important;
+    color: var(--color-brand);
 }
 
 .bg-base {
-    background-color: var(--color-body);
+    background-color: var(--color-base);
 }
 
 .full-height {
@@ -152,4 +152,17 @@ img {
 
 .link-custom:hover::after {
     width: 100%;
+}
+
+/* CARD */
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
 }
